@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CSharpGracefulShutdownExample": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
