@@ -13,7 +13,6 @@ internal class MyHost : IHostedService
 
     public Task StartAsync(CancellationToken cancellationToken)
     {
-
         Console.WriteLine("starting the service");
 
         _backgroundTask = Task.Run(async () =>
