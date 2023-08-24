@@ -21,7 +21,7 @@ internal class MyHost : IHostedService
             while (!_shouldStop)
             {
                 Console.WriteLine("service is running");
-                await Task.Delay(50);
+                await Task.Delay(200);
             }
 
             Console.WriteLine("Background task gracefully stopped");
